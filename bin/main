@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/scrapper'
+
+scraper = Scraper.new
+names = scraper.course_get
+
+puts names

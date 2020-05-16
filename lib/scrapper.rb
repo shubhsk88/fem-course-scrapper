@@ -6,7 +6,6 @@ class Scraper
     doc = open('https://frontendmasters.com/courses/')
 
     @parse_page = Nokogiri::HTML(doc)
-    #    puts parse_page
   end
 
   def course_get
@@ -32,8 +31,3 @@ class Scraper
     @parse_page.css('.s-vflex-inner')
   end
 end
-
-scraper = Scraper.new
-names = scraper.course_get
-
-puts names

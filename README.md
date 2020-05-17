@@ -9,6 +9,7 @@ In order to run the program you need to have the recent version of ruby installe
 
 - You should run the command `bundle install` in order to install the dependencies
 - In order to run the program and get the array of the course run `bin/main`
+- For window users to run the program using `ruby bin/main`
 
 ### In order to run the test cases for the methods, Please follow these steps
 

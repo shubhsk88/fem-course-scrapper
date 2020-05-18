@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/scrapper'
+
+scraper = Scraper.new
+names = scraper.course_get
+
+(0...names.count).each do |i|
+  puts("------------- #{i}---------------------")
+  puts("Course Name: #{names[i][:course_name]}")
+  puts("Instructor: #{names[i][:instructor]}")
+  puts("Organization: #{names[i][:organization]} ")
+  puts("Description: #{names[i][:details]}")
+  puts("Duration: #{names[i][:duration]}")
+end

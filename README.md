@@ -2,7 +2,7 @@
 
 This Project is built with Ruby, and it scrapes the course info data from the website called [Frontendmaster](frontendmasters.com) which is used to learn about the web development
 
-This scrapper just scrapper the course info data from the website. The primary motivation to built this scrapper was to keep myself updated with the course on the frontend masters.
+This scrapper just scrappes the course info data from the website. The primary motivation to built this scrapper was to keep myself updated with the course on the frontend masters.
 
 To run the program you need to have the recent version of ruby installed
 
